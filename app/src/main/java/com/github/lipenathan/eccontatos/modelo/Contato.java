@@ -1,8 +1,17 @@
 package com.github.lipenathan.eccontatos.modelo;
 
 public class Contato {
+
     private String nome;
     private String email;
+
+    @Override
+    public String toString() {
+        return "Contato{" +
+                "nome='" + nome + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 
     public String getNome() {
         return nome;
