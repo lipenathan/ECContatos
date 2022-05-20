@@ -2,6 +2,7 @@ package com.github.lipenathan.eccontatos.modelo;
 
 public class Contato {
 
+    private int id;
     private String nome;
     private String email;
 
@@ -11,6 +12,14 @@ public class Contato {
                 "nome='" + nome + '\'' +
                 ", email='" + email + '\'' +
                 '}';
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNome() {
