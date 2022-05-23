@@ -8,18 +8,9 @@ import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 
 import com.github.lipenathan.eccontatos.async.BaseAsyncTask;
-import com.github.lipenathan.eccontatos.modelo.Contato;
-import com.github.lipenathan.eccontatos.servicos.restadapter.retrofit.RestContatos;
-import com.github.lipenathan.eccontatos.servicos.restadapter.retrofit.RetrofitInstance;
 
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import java.io.IOException;
-import java.util.List;
-
-import retrofit2.Call;
 
 /**
  * Instrumented test, which will execute on an Android device.
