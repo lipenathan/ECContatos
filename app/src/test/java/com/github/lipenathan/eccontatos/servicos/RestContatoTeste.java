@@ -33,7 +33,6 @@ public class RestContatoTeste {
     private List<Contato> contatos;
     private Token token = new Token();
 
-
     @Test
     public void testeListarSinc() {
         Observable<Token> tokenObservable = RetrofitInstance.getRestContatos().getToken(LOGIN_REST);
